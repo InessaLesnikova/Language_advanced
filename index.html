@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language learning</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jquery-3.7.1.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium" selected>Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+    <div id="progress" class="progress">Step <span id="step">1</span></div>
+    <div id="score" class="score">Correct: <span id="correctCount">0</span> | Incorrect: <span id="incorrectCount">0</span></div>
+    <div id="box" class="box"></div>
+    <input type="text" id="userInput" placeholder="Enter translation">
+</div>
+</body>
+</html>
