@@ -1,0 +1,57 @@
+body {
+  font-family: Courier, monospace; 
+  background-color: #d9d2e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  text-align: center;
+}
+#difficulty {
+  width: 150px;
+  padding: 7px;
+  font-family: Courier, monospace;
+  color: #fff;
+  background-color: #9999BB;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+}
+#userInput {
+  width: 200px; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  background-color: #9999BB;
+  border: none; 
+  border-radius: 20px; 
+  font-size: 16px; 
+  color:#fff;
+}
+#userInput::placeholder {
+  color: #000000; 
+  opacity: 0.8;
+}
+.box {
+  font-size: 50px;
+  background-color: #B7B7CF;
+  padding: 50px;
+  width: 400px;
+  margin: 20px;
+  border-radius: 30px; 
+  border: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 1); 
+  cursor: pointer;
+}
+.progress {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.score {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
